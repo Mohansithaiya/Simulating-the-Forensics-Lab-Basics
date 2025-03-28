@@ -13,70 +13,64 @@ To install VirtualBox and set up a virtual machine(Kali Linux), install Autopsy 
 Install VirtualBox
 
 # Installation Steps:
-<ol>
 
-1.Download the Windows hosts .exe file from the official VirtualBox website
+1.Download the Windows hosts .exe file from the official VirtualBox website<br>
 
-2.Run the installer and follow the on-screen instructions
+2.Run the installer and follow the on-screen instructions<br>
 
-3.Once installed, launch VirtualBox to verify the installation.
-</ol>
+3.Once installed, launch VirtualBox to verify the installation.<br>
 
 # Step 2:
 Install Kali Linux on VirtualBox
 
 # Installation Steps:
-<ol>
-1.Download the Kali Linux ISO file.Open VirtualBox, click New, enter "Kali Linux", select Type: Linux and Version: Debian (64-bit)
 
-2.Set RAM to at least 4GB ,Set disk storage to at least 30GB, choose Dynamically Allocated or Fixed Size, and create the VM.
+1.Download the Kali Linux ISO file.Open VirtualBox, click New, enter "Kali Linux", select Type: Linux and Version: Debian (64-bit)<br>
 
-3.Go to Settings > Storage, click Empty under Controller: IDE.
+2.Set RAM to at least 4GB ,Set disk storage to at least 30GB, choose Dynamically Allocated or Fixed Size, and create the VM.<br>
 
-4.Select Graphical Install, follow the prompts to set language, location, username, and password.
+3.Go to Settings > Storage, click Empty under Controller: IDE.<br>
 
-5.Choose Partitioning Method (Guided - Use Entire Disk) and wait for installation to complete.
-</ol>
+4.Select Graphical Install, follow the prompts to set language, location, username, and password.<br>
+
+5.Choose Partitioning Method (Guided - Use Entire Disk) and wait for installation to complete.<br>
 
 # Step 3:
 Install Autopsy (GUI-based Forensic Tool)
 
 # Installation Steps:
-<ol>
-1.Download the Autopsy Windows Installer from the official website.
-2.Extract the ZIP file and open the bin folder
-3.Run autopsy.exe and set up a new forensic case for analysis.
-</ol>
+
+1.Download the Autopsy Windows Installer from the official website.<br>
+2.Extract the ZIP file and open the bin folder<br>
+3.Run autopsy.exe and set up a new forensic case for analysis.<br>
 
 # Step 4:
 Install Sleuth Kit (CLI-based Forensic Tools)
 
 # Installation Steps:
-<ol>
-1.Download the Windows ZIP package from the official website.
 
-2.Extract the ZIP folder and move it to a suitable directory (e.g., C:\sleuthkit).
+1.Download the Windows ZIP package from the official website.<br>
 
-3.Add the bin folder to Windows PATH:
-    *Open Control Panel → System → Advanced System Settings.
-    *Click Environment Variables → Edit Path.
-    *Add the Sleuth Kit bin folder path and save changes.
+2.Extract the ZIP folder and move it to a suitable directory (e.g., C:\sleuthkit).<br>
 
-4.Verify installation by running:
+3.Add the bin folder to Windows PATH:<br>
+    *Open Control Panel → System → Advanced System Settings.<br>
+    *Click Environment Variables → Edit Path.<br>
+    *Add the Sleuth Kit bin folder path and save changes.<br>
+
+4.Verify installation by running:<br>
 ```python
-fls -version
+fls -version<br>
 ```    
-</ol>
 
 # Step 5: Create & Configure a Virtual Hard Disk (VHD) in Windows
-<ol>
-1. Press Win + X, Select Disk Management.
-2.Click Action > Create VHD.
-3.Choose a location and set a disk size (e.g., 10GB+).
-4.Select Fixed Size or Dynamically Expanding and click OK.
-5.In Disk Management, find your new disk (marked as "Not Initialized")   -> Right-click the new disk → Initialize Disk → Select MBR.
-6.Right-click Unallocated Space → New Simple Volume → Format the disk -> Click next → Finish.
-</ol>
+
+1. Press Win + X, Select Disk Management.<br>
+2.Click Action > Create VHD.<br>
+3.Choose a location and set a disk size (e.g., 10GB+).<br>
+4.Select Fixed Size or Dynamically Expanding and click OK.<br>
+5.In Disk Management, find your new disk (marked as "Not Initialized")   -> Right-click the new disk → Initialize Disk → Select MBR.<br>
+6.Right-click Unallocated Space → New Simple Volume → Format the disk -> Click next → Finish.<br>
 
 # Output:
 
