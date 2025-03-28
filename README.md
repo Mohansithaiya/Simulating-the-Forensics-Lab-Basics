@@ -14,7 +14,7 @@ Install VirtualBox
 
 # Installation Steps:
 
-1. Download the Windows hosts .exe file from the official VirtualBox website
+1.Download the Windows hosts .exe file from the official VirtualBox website
 
 2.Run the installer and follow the on-screen instructions
 
@@ -80,7 +80,7 @@ fls -version
 
 # Autopsy:
 
-![alt text](IMG-06.jpg)
+![alt text](IMG-03.jpg)
 
 # Sleuth Kit:
 
